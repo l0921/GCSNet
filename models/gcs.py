@@ -64,9 +64,9 @@ class GCSNet(nn.Module):
 
     # ========= Shared Drug Encoder =========
     def drug_encoder(self, x, edge_index, batch):
-        x = su(self.conv2(x, edge_index))
-        x = self.relu(selelf.relu(self.conv1(x, edge_index))
-        x = self.relf.conv3(x, edge_index))
+        x = self.relu(self.conv1(x, edge_index))
+        x = self.relu(self.conv2(x, edge_index))
+        x = self.relu(self.conv3(x, edge_index))
 
         x = gmp(x, batch)
 
