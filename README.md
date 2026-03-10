@@ -11,4 +11,4 @@ Step2: input the train data to the modle
 
   training_validation.py is a validation model for predicting novel drug pairs
 
-<img width="1152" height="666" alt="屏幕截图 2026-01-14 154649" src="https://github.com/user-attachments/assets/be93dbe4-a0aa-4383-b9df-aedd0c02bf9e" />
+
